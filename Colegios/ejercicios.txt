@@ -1,0 +1,31 @@
+La empresa de telefonía IP “Ipfónica” desea dar bonificaciones en minutos a
+los usuarios que han consumido más durante el año. Para ello desea se elabore
+el algoritmo, en pseudocódigo, de un programa que permita premiar de la
+* siguiente manera.
+*
+* El programa recibirá como dato de entrada el tipo de llamada que más ha
+hecho durante el año, que puede ser Nacional o Internacional. Además
+* recibirá la cantidad de minutos de comunicación realizados según el
+* recibo de resumen anual. El cálculo se hará de la siguiente manera:
+*
+* Llamadas Internacionales:
+*
+* Hasta 1000 minutos la bonificación será de 1.65
+* Entre 1001 y 2000 minutos la bonificación será de 1.75
+* Más de 2001 minutos la bonificación será de 1.95
+*
+* Llamadas Nacionales:
+*
+* Hasta 2000 minutos la bonificación será de 1.6
+* Entre 2001 y 3000 minutos la bonificación será de 2.10
+* Más de 3001 minutos la bonificación será de 2.35
+*
+* Finalmente el sistema validará si el usuario pagó al contado o en cuotas
+* su recibo anual. Si ha sido en cuotas tendrá una bonificación extra
+* por pago de 0.35 y si ha sido al contado entonces tendrá una bonificación
+* extra por pago de 0.25.
+*
+* Los minutos de regalo gratis, se calculan mediante la siguiente fórmula:
+* (Cantidad de minutos / 50) * bonificación + (Cantidad de minutos / 25) * bonificación extra por pago.
+*
+* El programa deberá retornar finalmente los minutos de regalo del año.
